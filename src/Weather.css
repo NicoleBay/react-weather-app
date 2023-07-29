@@ -22,7 +22,7 @@
 }
 
 .Weather .list {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .Weather .date {
@@ -42,10 +42,9 @@
 }
 
 .Weather img {
-  margin-top: -25px;
-  margin-right: 10px;
-  width: 80px;
-  height: 80px;
+  margin-top: -26px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
 }
 

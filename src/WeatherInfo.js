@@ -41,7 +41,7 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
         <div className="row high-low">
-          <div className="col-6 ms-2">
+          <div className="col-6 ms-4">
             <span className="temp-high">
               <strong>22</strong>
             </span>
