@@ -11,6 +11,8 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       temperature: response.data.temperature.current,
+      temperatureMax: response.data.temperature.minimum,
+      temperatureMin: response.data.temperature.maximum,
       city: response.data.city,
       description: response.data.condition.description,
       wind: response.data.wind.speed,
@@ -61,6 +63,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
+
         <WeatherInfo data={weatherData} />
       </div>
     );
